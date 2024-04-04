@@ -51,10 +51,10 @@ io.on("connection", (socket) => {
       }
       // else {
       //   io.to(sender.socketId).emit("getMessage", {
-      //     senderId,
+      //     senderID,
       //     message,
-      //     conversationId,
-      //     receiverId,
+      //     conversationID,
+      //     receiverID,
       //     user: { id: user._id, fullname: user.fullname, email: user.email },
       //   });
       // }
